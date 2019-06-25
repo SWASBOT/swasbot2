@@ -1,1 +1,1 @@
-worker: node WDSPrivate.js
+worker: node SWAPrivate.js
