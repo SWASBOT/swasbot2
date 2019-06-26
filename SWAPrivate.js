@@ -43,7 +43,7 @@ bot.on('message', message => {
     .setThumbnail("https://i.imgur.com/b0deTHt.gif")
     .setColor('#cee4e6')
     .addField("𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙇𝙞𝙨𝙩", voice.map(c => c.name))
-    message.channel.sendEmbed(voice_embed);
+    TextChannel#send(voice_embed);
     }
 
     if (message.content === prefix + "help"){
