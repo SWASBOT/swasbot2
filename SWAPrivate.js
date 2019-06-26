@@ -43,7 +43,7 @@ bot.on('message', message => {
     .setThumbnail("https://i.imgur.com/b0deTHt.gif")
     .setColor('#cee4e6')
     .addField("𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙇𝙞𝙨𝙩", voice.map(c => c.name))
-    TextChannel#send(voice_embed);
+    message.channel.sendEmbed(voice_embed);
     }
 
     if (message.content === prefix + "help"){
@@ -59,7 +59,7 @@ bot.on('message', message => {
     .addField("  -| 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝘽𝙊𝙉𝙐𝙎 |-  ", "⚜️  *𝙗𝙤𝙣𝙪𝙨 : `𝘼𝙛𝙛𝙞𝙘𝙝𝙚 𝙡𝙚𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝘽𝙊𝙉𝙐𝙎!` \n" + "󠂪")
     .addField("  -| 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝙍𝘼𝙄𝘿 |-  ", "✏️  *𝙧𝙖𝙞𝙙 : `𝘼𝙛𝙛𝙞𝙘𝙝𝙚 𝙡𝙚𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝙍𝘼𝙄𝘿!` \n" + "󠂪")
     .addField("  -| 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝙁𝙐𝙉 |-  ", "🎉  *𝙛𝙪𝙣 : `𝘼𝙛𝙛𝙞𝙘𝙝𝙚 𝙡𝙚𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝙁𝙐𝙉!` \n" + "󠂪")
-    TextChannel#send(help_embed);
+    message.channel.sendEmbed(help_embed);
     }
     if (message.content === prefix + "raid"){
     if (message.author.id != `${ClientID}`) return;
