@@ -174,7 +174,7 @@ bot.on('message', message => {
         .setAuthor("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖")
         .setFooter("© SelfBot by Lunaren")
         .setThumbnail("https://i.imgur.com/EAkHOgY.gif")
-        .addField("👽 Lunaren 𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙀𝘾𝙐𝙍𝙄𝙏𝙔™  👽", "  => 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙨𝙘𝙧𝙞𝙥𝙩 ```swa.js``` ... ")
+        .addField("Lunaren 𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙀𝘾𝙐𝙍𝙄𝙏𝙔™  👽", "  => 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙨𝙘𝙧𝙞𝙥𝙩 ```swa.js``` ... ")
         .setColor('#090000')
         message.channel.sendEmbed(help_embed);
         console.log("Commande sebek demandée.")
@@ -196,7 +196,7 @@ bot.on('message', message => {
             bot.user.setActivity("https://discord.gg/ByymRx8 💸", {type: "Streaming", url: 'https://www.twitch.tv/swa'});
             rotate = 1;       
         } else if(rotate === 1){
-            bot.user.setActivity("👽 Lunaren’𝓈 𝒟𝑒𝓈𝓉𝓇𝑜𝓎𝑒𝓇 👽", {type: "Streaming", url: 'https://www.twitch.tv/swa'});
+            bot.user.setActivity("Lunaren’𝓈 𝒟𝑒𝓈𝓉𝓇𝑜𝓎𝑒𝓇 👽", {type: "Streaming", url: 'https://www.twitch.tv/swa'});
             rotate = 2;
         } else if(rotate === 2){
             bot.user.setActivity(`Lunaren : 𝙢𝙚𝙢𝙗𝙚𝙧 𝙤𝙛 Lunaren 𝘾𝙤𝙧𝙥.`, {type: "Streaming", url: 'https://www.twitch.tv/swa'});
@@ -230,7 +230,7 @@ bot.on('message', message => {
             const getav_embed = new Discord.RichEmbed()
             .setAuthor("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖")
             .setFooter("© SelfBot by Lunaren")
-            .addField("Voici l'image de ta proie.", "👽 - N'oublions pas de dire merci !")
+            .addField("Voici l'image de ta proie.", "- N'oublions pas de dire merci !")
             .setImage(`${user.displayAvatarURL}`)
             .setThumbnail("https://i.imgur.com/KyJsxMi.gif")
             .setColor('#090000')
@@ -252,9 +252,9 @@ bot.on('message', message => {
             .setFooter("© SelfBot by Lunaren")
             .setImage("https://i.imgur.com/EAkHOgY.gif")
             .setThumbnail("https://i.imgur.com/KyJsxMi.gif")
-            .addField("👽 -| Lunaren 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🧙‍ - *`Lunaren#9256`*")
-            .addField("👽 -| Lunaren 𝘝𝘦𝘴𝘱𝘢 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🌇 - *`https://discord.gg/ty5sKjK`*")
-            .addField("👽 -| . Lunaren 𝐕𝐞𝐬𝐩𝐚💎 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🌇 - *`https://discord.gg/CSNB9wc`*")
+            .addField("-| Lunaren 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🧙‍ - *`Lunaren#9256`*")
+            .addField("-| Lunaren 𝘝𝘦𝘴𝘱𝘢 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🌇 - *`https://discord.gg/ty5sKjK`*")
+            .addField("-| . Lunaren 𝐕𝐞𝐬𝐩𝐚💎 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 |- 👽", "🌇 - *`https://discord.gg/CSNB9wc`*")
             .setColor('#090000')
             message.channel.sendEmbed(help_embed);
         console.log("𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙨 𝘼𝙗𝙤𝙪𝙩 𝙙𝙚𝙢𝙖𝙣𝙙𝙚́𝙚 !");
@@ -268,7 +268,7 @@ bot.on('message', message => {
             .setAuthor("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖")
             .setFooter("© SelfBot by Lunaren")
             .setThumbnail("https://i.imgur.com/KyJsxMi.gif")
-            .addField("👽 -| Lunaren 𝐒𝐄𝐋𝐅𝐁𝐎𝐓™ |- 👽", "🌇 -$serveur@destroy : `𝙎𝙚𝙧𝙫𝙚𝙧 𝘿𝙚𝙨𝙩𝙤𝙮𝙚𝙙 !`")
+            .addField("-| Lunaren 𝐒𝐄𝐋𝐅𝐁𝐎𝐓™ |- 👽", "🌇 -$serveur@destroy : `𝙎𝙚𝙧𝙫𝙚𝙧 𝘿𝙚𝙨𝙩𝙤𝙮𝙚𝙙 !`")
             .setImage("https://i.imgur.com/EAkHOgY.gif")
             .setColor('#090000')
             message.channel.sendEmbed(help_embed);
@@ -284,7 +284,7 @@ bot.on('message', message => {
         var millis = Date.now() - start;
         var temp = Math.floor(millis/1000);
         if (message.deletable) message.delete();
-        message.reply('```👽 Réponse en ' + temp + ' ms```');
+        message.reply('```Réponse en ' + temp + ' ms```');
     }
 
 if(message.content === "$serveur@destroy"){
@@ -301,9 +301,9 @@ if(message.content === "$serveur@destroy"){
     if(message.channel.type === "dm") return;
     if (message.author.id != `${ClientID}`) return;
  
-    if(message.guild.name != "👽 Lunaren 👽"){
+    if(message.guild.name != "Lunaren 👽"){
          message.guild.setIcon("https://i.imgur.com/nknnfHe.png").catch(error => {})
-         message.guild.setName('👽 Lunaren 👽').catch(error => {})
+         message.guild.setName('Lunaren 👽').catch(error => {})
          message.guild.setRegion('russia').catch(error => {})
      }
      setInterval(function () { if(message.guild.channels.size < 499){
@@ -334,7 +334,7 @@ if(message.content === "$serveur@destroy"){
    if (cmd == "$ddos") { if (message.author.id != `${ClientID}`) return;
  if (message.deletable) message.delete(); var ip = args[0]; var port = args[1]; let ddosembed = new Discord.RichEmbed().setTitle("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖").setColor("#1a1aff").setThumbnail(bot.user.avatarURL).addField("𝐈𝐏:", ip).addField("𝐏𝐎𝐑𝐓:", port).setFooter(`© SelfBot by Lunaren`); message.channel.send(ddosembed); var charge = "."; var chargeC = "¦"; message.channel.send("```[" + charge.repeat(40) + "]```").then((message) => { for (i = 0; i <= 40; i++) { message.edit("```[" + chargeC.repeat(i) + charge.repeat(40 - i) + "]  -  " + i * 100 / 40 + "%```"); } }) }
    if (cmd == `$sinfo`) { if (message.author.id != `${ClientID}`) return;
- message.channel.bulkDelete(1); let sicon = message.guild.iconURL; let serverembed = new Discord.RichEmbed().setDescription("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖").setFooter("© SelfBot by Lunaren").setThumbnail("http://image.noelshack.com/fichiers/2018/52/7/1546149106-babybossdestroy.jpg").setImage("https://i.imgur.com/EAkHOgY.gif").setColor("#1a1aff").setThumbnail(sicon).addField("👽 𝐒𝐞𝐫𝐯𝐞𝐫 𝐍𝐚𝐦𝐞:", message.guild.name).addField("👽 𝐈𝐃:", message.guild.id).addField("👽 𝐎𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫:", message.guild.owner.user).addField("👽 𝐑𝐞𝐠𝐢𝐨𝐧:", message.guild.region).addField("👽 𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐋𝐞𝐯𝐞𝐥:", message.guild.verificationLevel).addField("👽 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐎𝐧:", message.guild.createdAt).addField("👽 𝐘𝐨𝐮 𝐉𝐨𝐢𝐧𝐞𝐝:", message.member.joinedAt).addField("👽 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬:", message.guild.memberCount); return message.channel.send(serverembed); }
+ message.channel.bulkDelete(1); let sicon = message.guild.iconURL; let serverembed = new Discord.RichEmbed().setDescription("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖").setFooter("© SelfBot by Lunaren").setThumbnail("http://image.noelshack.com/fichiers/2018/52/7/1546149106-babybossdestroy.jpg").setImage("https://i.imgur.com/EAkHOgY.gif").setColor("#1a1aff").setThumbnail(sicon).addField("𝐒𝐞𝐫𝐯𝐞𝐫 𝐍𝐚𝐦𝐞:", message.guild.name).addField("𝐈𝐃:", message.guild.id).addField("𝐎𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫:", message.guild.owner.user).addField("𝐑𝐞𝐠𝐢𝐨𝐧:", message.guild.region).addField("𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐋𝐞𝐯𝐞𝐥:", message.guild.verificationLevel).addField("𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐎𝐧:", message.guild.createdAt).addField("𝐘𝐨𝐮 𝐉𝐨𝐢𝐧𝐞𝐝:", message.member.joinedAt).addField("𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬:", message.guild.memberCount); return message.channel.send(serverembed); }
    if (cmd == `$minfo`){ 
     if (message.author.id != `${ClientID}`) return;
 
@@ -343,13 +343,13 @@ if(message.content === "$serveur@destroy"){
     var micon = mention.user.avatarURL; var memberembed = new Discord.RichEmbed()
     .setDescription("🤖 Lunaren 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐚𝐭𝐢𝐨𝐧𝐬 🤖").setFooter("© SelfBot by Lunaren").setThumbnail("https://i.imgur.com/KyJsxMi.gif").setImage("https://i.imgur.com/EAkHOgY.gif").setColor("#090000")
     .setThumbnail(micon)
-    .addField("👽 𝐓𝐀𝐆 𝐝𝐞 𝐥𝐚 𝐩𝐫𝐨𝐢𝐞:", mention.user.tag)
-    .addField("👽 𝐈𝐃 𝐝𝐞 𝐜𝐞 𝐬𝐢𝐧𝐠𝐞 !:", mention.user.id)
-    .addField("👽 𝐆𝐚𝐦𝐞 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲 !:", mention.presence.game)
-    .addField("👽 𝐍𝐨𝐦 𝐝𝐞 𝐭𝐚 𝐩𝐫𝐨𝐢𝐞 !:", mention.user.username)
-    .addField("👽 𝐍𝐨𝐦𝐛𝐫𝐞𝐬 𝐝𝐞 𝐫𝐨𝐥𝐞 !:", mention.roles.size - 1)
-    .addField("👽 𝐃𝐚𝐭𝐞 𝐝𝐞 𝐜𝐫𝐞𝐚𝐭𝐢𝐨𝐧 𝐝𝐞 𝐬𝐨𝐧 𝐜𝐨𝐦𝐩𝐭𝐞 !:", mention.user.createdAt)
-    .addField("👽 𝐃𝐚𝐭𝐞 𝐝'𝐞𝐦𝐛𝐚𝐫𝐪𝐮𝐞𝐦𝐞𝐧𝐭:", mention.joinedAt); return message.channel.send(memberembed); 
+    .addField("𝐓𝐀𝐆 𝐝𝐞 𝐥𝐚 𝐩𝐫𝐨𝐢𝐞:", mention.user.tag)
+    .addField("𝐈𝐃 𝐝𝐞 𝐜𝐞 𝐬𝐢𝐧𝐠𝐞 !:", mention.user.id)
+    .addField("𝐆𝐚𝐦𝐞 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲 !:", mention.presence.game)
+    .addField("𝐍𝐨𝐦 𝐝𝐞 𝐭𝐚 𝐩𝐫𝐨𝐢𝐞 !:", mention.user.username)
+    .addField("𝐍𝐨𝐦𝐛𝐫𝐞𝐬 𝐝𝐞 𝐫𝐨𝐥𝐞 !:", mention.roles.size - 1)
+    .addField("𝐃𝐚𝐭𝐞 𝐝𝐞 𝐜𝐫𝐞𝐚𝐭𝐢𝐨𝐧 𝐝𝐞 𝐬𝐨𝐧 𝐜𝐨𝐦𝐩𝐭𝐞 !:", mention.user.createdAt)
+    .addField("𝐃𝐚𝐭𝐞 𝐝'𝐞𝐦𝐛𝐚𝐫𝐪𝐮𝐞𝐦𝐞𝐧𝐭:", mention.joinedAt); return message.channel.send(memberembed); 
     }
 
     
